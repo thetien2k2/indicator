@@ -140,14 +140,14 @@ Backtesting is the method for seeing how well a strategy would have done. The fo
 Install package.
 
 ```bash
-go get github.com/cinar/indicator
+go get github.com/thetien2k2/indicator
 ```
 
 Import indicator.
 
 ```Golang
 import (
-    "github.com/cinar/indicator"
+    "github.com/thetien2k2/indicator"
 )
 ```
 
