@@ -8,7 +8,7 @@ package indicator
 import (
 	"math"
 
-	"github.com/cinar/indicator/container/bst"
+	"github.com/thetien2k2/indicator/container/bst"
 )
 
 // Trend indicator.
@@ -18,7 +18,6 @@ const (
 	Falling Trend = -1
 	Rising  Trend = 1
 )
-
 
 // The AbsolutePriceOscillator function calculates a technical indicator that is used
 // to follow trends. APO crossing above zero indicates bullish, while crossing below
@@ -336,14 +335,14 @@ func ParabolicSar(high, low, closing []float64, psarAfStep, psarAfMax float64) (
 	}
 
 	return psar, trend
-} 
+}
 
 // DefaultParabolicSar function calculates the Parabolic SAR using a psarAfStep
 // of 0.02, and psarAfMax of 0.20.
 //
 // Returns psar, trend
 func DefaultParabolicSar(high, low, closing []float64) ([]float64, []Trend) {
-    return ParabolicSar(high, low, closing, 0.02, 0.20)
+	return ParabolicSar(high, low, closing, 0.02, 0.20)
 }
 
 // The Qstick function calculates the ratio of recent up and down bars.

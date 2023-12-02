@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/cinar/indicator"
+	"github.com/thetien2k2/indicator"
 )
 
 func TestNormalizeActions(t *testing.T) {

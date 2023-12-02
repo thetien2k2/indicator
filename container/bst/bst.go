@@ -1,7 +1,7 @@
 package bst
 
 import (
-	"github.com/cinar/indicator/container"
+	"github.com/thetien2k2/indicator/container"
 )
 
 // BST node.
